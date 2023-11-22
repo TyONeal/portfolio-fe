@@ -1,5 +1,10 @@
+import { useState } from "react";
+import HeroWrapper from "./components/hero/HeroWrapper";
+
 function App() {
-    return <h1>Hi</h1>
+    return (
+        <HeroWrapper />
+    )
 }
 
 export default App;
