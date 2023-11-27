@@ -1,6 +1,8 @@
+import "../../css/navbar.css"
+
 function Navbar() {
     return (
-        <nav>
+        <nav className="nav-container">
             <ul>
                 <li>Projects</li>
                 <li>About Me</li>
