@@ -5,29 +5,30 @@
     align-items: center;
     height: 18vh;
     background-color: purple;
-    border: solid black 3px;
+    border: solid deepskyblue 3px;
 }
 
 ul {
     display: flex;
-    gap: 20em;
 }
 
 li {
     font-family: "Roboto Thin", sans-serif;
     list-style-type: none;
+    padding: 0 7rem;
 }
 
 
 a {
+    display: flex;
     text-decoration: underline;
     text-decoration-color: pink;
     color: whitesmoke;
+    transition: transform .1ms ease;
 }
 
 a:hover {
     color: deepskyblue;
     text-decoration-color: deeppink;
-    font-size: large;
-    gap: 18em;
+    transform: scale(1.4);
 }
