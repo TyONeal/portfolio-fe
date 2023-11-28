@@ -1,7 +1,8 @@
 import { useState } from "react";
 
-import HeroWrapper from "./components/hero/HeroWrapper";
 import Navbar from "./components/navigation/Navbar";
+import HeroWrapper from "./components/hero/HeroWrapper";
+import ProjectWrapper from "./components/projects/ProjectWrapper";
 
 import "./css/layout.css";
 import "./css/resets.css";
@@ -11,6 +12,7 @@ function App() {
         <div className="page-wrapper">
             <Navbar />
             <HeroWrapper />
+            <ProjectWrapper />
         </div>
     )
 }
