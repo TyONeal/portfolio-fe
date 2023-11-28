@@ -3,27 +3,34 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: black;
+}
+
+.hero-row {
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 20px;
 }
 
 .hero-name {
     color: white;
-    padding: 200px 0 0 200px;
     font-family: Helvetica, sans-serif;
-    font-size: x-large;
-}
-
-.hero-image {
-    background-color: black;
-    background-image: url("../img/tyler-profile.jpeg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 30rem;
-    width: 100%;
-    padding: 30px;
+    font-size: 100px;
+    background-color: purple;
+    border: 3px solid deepskyblue;
+    border-radius: 14px;
+    margin-top: 30px;
 }
 
 .hero-content {
     color: deepskyblue;
     background-color: purple;
+    width: 22%;
+    border: 3px solid deepskyblue;
+    border-radius: 14px;
+    padding: 30px;
+
 }
