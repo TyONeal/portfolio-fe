@@ -1,0 +1,19 @@
+.language-wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 18vh;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: purple;
+    padding: 20px;
+    border: 2px solid deepskyblue;
+}
+
+.language-image {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 8px solid deepskyblue;
+    border-radius: 14px;
+    margin: 20px;
+}

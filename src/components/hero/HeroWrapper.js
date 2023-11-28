@@ -5,7 +5,6 @@ function HeroWrapper() {
     return (
         <div>
             <LanguagesList />
-            <img />
             <HeroDescription />
         </div>
     )}
