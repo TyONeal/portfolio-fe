@@ -1,3 +1,33 @@
 .nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 18vh;
+    background-color: purple;
+    border: solid black 3px;
+}
 
+ul {
+    display: flex;
+    gap: 20em;
+}
+
+li {
+    font-family: "Roboto Thin", sans-serif;
+    list-style-type: none;
+}
+
+
+a {
+    text-decoration: underline;
+    text-decoration-color: pink;
+    color: whitesmoke;
+}
+
+a:hover {
+    color: deepskyblue;
+    text-decoration-color: deeppink;
+    font-size: large;
+    gap: 18em;
 }

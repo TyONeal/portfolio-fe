@@ -4,10 +4,10 @@ function Navbar() {
     return (
         <nav className="nav-container">
             <ul>
-                <li>Projects</li>
-                <li>About Me</li>
-                <li>GitHub</li>
-                <li>LinkedIn</li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/aboutMe">About Me</a></li>
+                <li><a href="https://github.com/TyONeal">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/ty-oneal/">LinkedIn</a></li>
             </ul>
         </nav>
     )
