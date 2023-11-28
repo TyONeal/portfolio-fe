@@ -1,6 +1,6 @@
 function LanguagesList() {
     return (
-        <div>Hi</div>
+        <div>These are the languages</div>
     )
 }
 

@@ -13,7 +13,7 @@ ul {
 }
 
 li {
-    font-family: "Roboto Thin", sans-serif;
+    font-family: Helvetica, sans-serif ;
     list-style-type: none;
     padding: 0 7rem;
 }
