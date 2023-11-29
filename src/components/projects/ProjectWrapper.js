@@ -1,11 +1,11 @@
 import ProjectCard from "./ProjectCard";
 
-function ProjectWrapper() {
+function ProjectWrapper({proj}) {
     return (
         <div>
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
+            <ProjectCard project={proj} />
+            <ProjectCard project={proj} />
+            <ProjectCard project={proj} />
         </div>
     )
 }
