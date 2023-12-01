@@ -1,13 +1,11 @@
 .description-wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-color: black;
 }
 
 .hero-row {
-    justify-content: space-evenly;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -49,7 +47,7 @@
 .hero-content-list li {
     padding: unset;
     margin: unset;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .hero-content-mission p {
