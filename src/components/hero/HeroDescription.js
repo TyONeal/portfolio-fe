@@ -6,7 +6,15 @@ function HeroDescription() {
             <div className="hero-row">
                 <div className="hero-name">Ty O'Neal</div>
                 <div className="hero-content">
-                    Ty O'Neal is an Air Force Vet turned programmer located in San Antonio, Texas. With over 15 years of experience in the workforce, his expertise is in managing solutions in high-stress (often crunch) times. This site is an extension of his skills in web development. It was made with React, with a Java (Spring Boot) backend.
+                    <span>What I Prioritize as a Dev:</span>
+                    <ul className="value-list">
+                        <li>User Value</li>
+                        <br />
+                        <li>Code That Works</li>
+                        <li>Neat Code</li>
+                        <li>Good Turnover</li>
+                    </ul>
+                    <p>Hi there</p>
                 </div>
             </div>
         </div>

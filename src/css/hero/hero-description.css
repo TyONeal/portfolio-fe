@@ -28,9 +28,14 @@
 .hero-content {
     color: deepskyblue;
     background-color: purple;
-    width: 22%;
+    width: 250px;
     border: 3px solid deepskyblue;
     border-radius: 14px;
     padding: 30px;
     margin-top: 30px;
+}
+
+.value-list {
+    display: flex;
+    flex-direction: column;
 }
