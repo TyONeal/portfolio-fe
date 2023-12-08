@@ -10,7 +10,7 @@ import "./css/resets.css";
 function App() {
     return (
         <div className="page-wrapper">
-            <Navbar />
+
             <HeroWrapper />
             <ProjectWrapper />
         </div>
