@@ -9,7 +9,7 @@
     flex-direction: row;
     gap: 100px;
     justify-content: space-around;
-    height: 90vh;
+    height: 89vh;
     align-items: center;
     margin: 30px;
     border: 2px solid black;
@@ -18,12 +18,25 @@
 .hero-name {
     display: flex;
     flex-direction: column;
-    font-family: Helvetica, sans-serif;
+    font-family: "Euphemia UCAS", sans-serif;
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
 }
 
 .projects {
     display: flex;
     flex-direction: column;
     margin-bottom: 80px;
+    font-size: 30px;
+}
+
+.projects a {
+    text-decoration: unset;
+    color: black;
+}
+
+.projects a :hover {
+    font-size: 40px;
 }
 
