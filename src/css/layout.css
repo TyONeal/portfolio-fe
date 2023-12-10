@@ -9,6 +9,7 @@
     flex-direction: column;
     padding: unset;
     margin: unset;
+    border: 7px solid black;
 }
 
 /*

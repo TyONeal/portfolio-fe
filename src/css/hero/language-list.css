@@ -6,14 +6,13 @@
     align-items: center;
     background-color: whitesmoke;
     padding: 20px;
-    border: 8px solid purple;
 }
 
 .language-image {
     width: 100px;
     height: 100px;
     padding: 10px;
-    border: 8px solid purple;
+    border: 8px solid black;
     border-radius: 14px;
     margin: 20px;
 }
