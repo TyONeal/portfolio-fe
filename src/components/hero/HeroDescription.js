@@ -5,6 +5,9 @@ function HeroDescription() {
         <div className="description-wrapper">
             <div className="hero-row">
                 <div className="hero-name">Ty O'Neal</div>
+                <div className="projects">
+                    Kyte
+                </div>
             </div>
         </div>
     )
